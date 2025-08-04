@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "build": "tsc"
+    "start": "vercel dev"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.1",
