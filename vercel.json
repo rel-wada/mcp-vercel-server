@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "functions": {
+      "api/context.ts": {
+        "runtime": "nodejs18.x"
+      }
+    },
+    "routes": [
+      {
+        "src": "/context",
+        "dest": "/api/context.ts"
+      }
+    ]
+  }
